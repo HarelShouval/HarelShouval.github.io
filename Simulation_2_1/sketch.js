@@ -159,7 +159,7 @@ function setup() {
   //Run_iteration();
   
   buttonReset=createButton('  RESET  ');
-  buttonReset.position(410,160); //buttonReset.position(620,240);
+  buttonReset.position(410,175); //buttonReset.position(620,240);
   buttonReset.size(100,40);
 // } // end of name_change==true
 }// end setup
@@ -572,14 +572,14 @@ function Create_buttons(){
     stroke(0,128,128);
   
     buttonUp=createButton('  UP  ');
-    buttonUp.position(505*0.66,180*0.66);
+    buttonUp.position(505*0.66,180*0.66+5);
     buttonUp.size(100*0.66,40*0.66);
     buttonDown = createButton(' Down');
-    buttonDown.position(505*0.66,240*0.66);
+    buttonDown.position(505*0.66,240*0.66+5);
     buttonDown.size(100*0.66,40*0.66)
   
     buttonStart=createButton('START')
-    buttonStart.position(620*0.66,165*0.66);
+    buttonStart.position(620*0.66,175*0.66);
     buttonStart.size(150*0.66,60*0.66);
   
     buttonDown.style('background-color', 'Gray');
