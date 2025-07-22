@@ -132,10 +132,10 @@ function setup() {
   inputName=createInput(My_name);
   
   par = createP('Enter your first name below.');
-  par.position(0, 12);
+  par.position(5, 12);
   
   inputName.position(32,54);
-  inputName.size(100,25);
+  inputName.size(120,30);
   
  
 
