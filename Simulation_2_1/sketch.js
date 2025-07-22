@@ -159,7 +159,7 @@ function setup() {
   //Run_iteration();
   
   buttonReset=createButton('  RESET  ');
-  buttonReset.position(620*0.66,190*0.66+60);); //buttonReset.position(620,240);
+  buttonReset.position(620*0.66,190*0.66+60); //buttonReset.position(620,240);
   buttonReset.size(100,40);
 // } // end of name_change==true
 }// end setup
