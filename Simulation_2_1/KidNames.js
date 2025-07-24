@@ -38,7 +38,7 @@ const KidsNames = [
   "James",
   "Sofia",
   "Isabella",
-  "Lucas",
+  "Hakim",
   "Taylor",
   "Tyler",
   "Kim",
