@@ -41,7 +41,7 @@ var plot1_height=150;
 
 var plot2_height=n*box_h; //500;
 
-var plot3_height=280;
+var plot3_height=200;
 
 var reStart_flag=1;
 
@@ -256,11 +256,11 @@ function Display_frustrations(){ // plot 3
      strokeWeight(1);
      textSize(22);
      fill('Blue');
-     //text('My Frustrations', x_pad+width_x/2-250,plot1_height+plot2_height+ploty_buffer+100);
-     text('My Frustrations', x_pad+width_x/2-250,100);
+     
+     text('My Frustrations', x_pad+width_x/2-250,170);
      fill('Red');
-     text('Average Frustrations',x_pad+width_x/2+25,100);
-     //text('Average Frustrations',x_pad+width_x/2+25,plot1_height+plot2_height+ploty_buffer+100);
+     text('Average Frustrations',x_pad+width_x/2+25,170);
+    
      fill('Black');
     //pop();    
     
