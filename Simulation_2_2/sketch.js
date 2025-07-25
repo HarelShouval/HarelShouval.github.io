@@ -220,8 +220,7 @@ function Display_column(){
      textSize(24);
      fill('Black');
      text('Iterations',plotx_buffer+width_x/2,plot2_height+ploty_buffer);
-     //text('Iterations',x_pad+width_x/2,ploty_buffer+plot1_height+plot2_height);
-     //text('Iterations',x_pad+width_x/2,y_pad+box_h*n+30);
+     
      
     
     stroke(100,100,100);
