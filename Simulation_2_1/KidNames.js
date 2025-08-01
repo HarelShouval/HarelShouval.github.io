@@ -1,6 +1,9 @@
 //List of kids names it needs to have at lease the same number of names as n in the sketch
 
 const KidsNames = [
+  "Ashley"
+  "Austin",
+  "Claudia",
   "Dan",
   "Ofer",
   "Liam",
@@ -22,6 +25,7 @@ const KidsNames = [
   "Henry",
   "Ella",
   "Demirti",
+  "Diego",
   "Amelia",
   "Omar",
   "Cai",
@@ -37,6 +41,7 @@ const KidsNames = [
   "Mia",
   "James",
   "Sofia",
+  "Muhammad",
   "Isabella",
   "Hakim",
   "Taylor",
@@ -60,5 +65,6 @@ const KidsNames = [
   "Amir",
   "Barak",
   "Caleb",
-  "Jonathan"
+  "Jonathan",
+  "Andrea",
 ];
