@@ -71,14 +71,14 @@ function setup() {
   if (i_flip==0) {colect_choice=1;} else{collect_choice=0;}
 
     buttonUp=createButton('  UP  ');
-    buttonUp.position(390,110);
-    buttonUp.size(80,40)
+    buttonUp.position(395,50); //390,110
+    buttonUp.size(80,40) 
     buttonDown=createButton(' Down');
-    buttonDown.position(390,170);
+    buttonDown.position(395,100); //390,170
     buttonDown.size(80,40)
   
     buttonStart=createButton('START')
-    buttonStart.position(485,90);
+    buttonStart.position(485,30); //485,90
     buttonStart.size(150,60);
   
     buttonDown.style('background-color', 'Gray');
@@ -123,7 +123,7 @@ function setup() {
   setTimeout(Run_iteration,150);
   //setTimeout(Draw,150);
   buttonReset=createButton('  RESET  ');
-  buttonReset.position(485,165);
+  buttonReset.position(485,105); //485,165
   buttonReset.size(150,60);
 
 }// end setup
