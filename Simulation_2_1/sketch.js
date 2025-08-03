@@ -399,7 +399,7 @@ function Display_frustrations(){ // plot 3
     drawingContext.setLineDash([5, 15]);
     
     //line(x_pad+(counter)*box_w,y_pad/2,x_pad+(counter)*box_w,height);
-    line(plotx_buffer+(counter+1)*box_w,-20,plotx_buffer+(counter+1)*box_w,height-10);
+    line(plotx_buffer+(counter+1)*box_w,-22,plotx_buffer+(counter+1)*box_w,height-10);
     pop()
   }
   
@@ -412,7 +412,7 @@ function Display_frustrations(){ // plot 3
     fill('Blue');
   
    if (counter==0) {
-    text(my_frustrations[0],12,plot3_height/3-(my_frustrations[0]-frustrations_av[0])*plot3_height/(n*0.5));
+    text(my_frustrations[0],15,plot3_height/3-(my_frustrations[0]-frustrations_av[0])*plot3_height/(n*0.5));
     //fill('Red');
   
      } // if (counter==0)
@@ -420,9 +420,9 @@ function Display_frustrations(){ // plot 3
    if (counter==(it-1)) {
     // label range
      
-      text(max(my_frustrations)+1,12,plot3_height/3-(max(my_frustrations)+1-frustrations_av[0])*plot3_height/(n*0.5));
+      text(max(my_frustrations)+1,15,plot3_height/3-(max(my_frustrations)+1-frustrations_av[0])*plot3_height/(n*0.5));
      
-      text(min(my_frustrations)-1,12,plot3_height/3-(min(my_frustrations)-1-frustrations_av[0])*plot3_height/(n*0.5));
+      text(min(my_frustrations)-1,15,plot3_height/3-(min(my_frustrations)-1-frustrations_av[0])*plot3_height/(n*0.5));
     } // if (counter==it-1)
  
   pop();
