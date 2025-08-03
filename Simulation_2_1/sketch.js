@@ -341,7 +341,7 @@ function Display_class_names(){
          fill('Black');
          rotate(-PI/2);
         
-         text('Frustration levels',-(plot1_height+plot2_height),-25*0.66);
+         text('Frustration levels',-(plot1_height+plot2_height),-20);
   pop();
   
   for (var x = 0; x < n; x++) {
@@ -412,7 +412,7 @@ function Display_frustrations(){ // plot 3
     fill('Blue');
   
    if (counter==0) {
-    text(my_frustrations[0],18,plot3_height/3-(my_frustrations[0]-frustrations_av[0])*plot3_height/(n*0.5));
+    text(my_frustrations[0],12,plot3_height/3-(my_frustrations[0]-frustrations_av[0])*plot3_height/(n*0.5));
     //fill('Red');
   
      } // if (counter==0)
@@ -420,9 +420,9 @@ function Display_frustrations(){ // plot 3
    if (counter==(it-1)) {
     // label range
      
-      text(max(my_frustrations)+1,18,plot3_height/3-(max(my_frustrations)+1-frustrations_av[0])*plot3_height/(n*0.5));
+      text(max(my_frustrations)+1,12,plot3_height/3-(max(my_frustrations)+1-frustrations_av[0])*plot3_height/(n*0.5));
      
-      text(min(my_frustrations)-1,18,plot3_height/3-(min(my_frustrations)-1-frustrations_av[0])*plot3_height/(n*0.5));
+      text(min(my_frustrations)-1,12,plot3_height/3-(min(my_frustrations)-1-frustrations_av[0])*plot3_height/(n*0.5));
     } // if (counter==it-1)
  
   pop();
