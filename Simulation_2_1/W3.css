@@ -170,7 +170,7 @@ figure {
     padding: 4px; /* Add some spacing inside the border */
   }
   figure img {
-    /*width: 100%; /* Makes the image take up the full width of its container */
+    width: 100%; /* Makes the image take up the full width of its container */
     height: auto; /* Maintains the aspect ratio */
     background-color: white;
 }
