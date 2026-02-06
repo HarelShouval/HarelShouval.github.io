@@ -153,6 +153,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }*/
 figure {
     display: table; /*block /* Ensure figure is a block element */
+    /*float: left;*/ /* Float the figure to the right */
+    float: right; /* Float the figure to the right */
+    text-align: center; /* Center the caption text */
+    font-size: smaller; /* Adjust font size */
+    border: 1px solid #cccccc; /* Width: 1px, Style: solid, Color: light gray */
+    padding: 4px; /* Add some spacing inside the border */
+    margin: 1em auto; /* Add some margin around the figure */
+  }
+
+  figure.title {
+    display: table; /*block /* Ensure figure is a block element */
     float: left; /* Float the figure to the right */
     /*float: right; *//* Float the figure to the right */
     text-align: center; /* Center the caption text */
