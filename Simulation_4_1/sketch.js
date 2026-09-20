@@ -38,7 +38,7 @@ var inputName;
 
 var i_flip
 
-var collect_choice=0
+var collect_choice=0;
 var choice_array=[];
 
 var test_if=0;
@@ -256,7 +256,7 @@ function restart_card()
     line(20*0.66,28*0.66,110*0.66,28*0.66);
     
     textSize(12);
-    text("Note the powerful are now near the top.",20*0.66,60*0.66);
+    text("Note that the powerful studnets are now near the top of the classrooms.",20*0.66,60*0.66);
     text("You have a slightly lighter color than your friends.",20*0.66,90*0.66);
  
  
@@ -270,14 +270,15 @@ function restart_card()
     text('What are your frustration levels compared to the powerless and powerful',20*0.66, 220*0.66);
     line(20*0.66,225*0.66,width*0.66,225*0.66);
     textSize(12);
-    text("Note that after the game is reset, there will be new students with different likes and dislikes.",20*0.66,260*0.66);
+    text("Run the simulations several times becuase each run is different.",20*0.66,260*0.66);
+    text("Note that after the game is reset, there will be new students with different likes and dislikes.",20*0.66,300*0.66);
   
   textSize(18);
   textStyle(BOLD);
   fill(10,225,10);
   stroke('Black');
   strokeWeight(3);
-  text("To start the game again press the Green start button",20*0.66,300*0.66);
+  text("To start the game again press the Green start button",20*0.66,350*0.66);
   
   pop();
 
